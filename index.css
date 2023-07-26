@@ -130,3 +130,11 @@ h1 {
   padding: 8px 24px;
   color: #F9FAF8;
 }
+
+footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 40px 0px;
+  width: 100%;
+}
