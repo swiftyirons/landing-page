@@ -65,6 +65,7 @@ h1 {
 .section-two {
   display: flex;
   justify-content: center;
+
 }
 .image-row {
   display: flex;
@@ -86,4 +87,23 @@ h2 {
 }
 .card p {
   text-align: center;
+  padding: 0 0 100px 0;
+}
+
+.section-three {
+  background-color: #E5E7EB;
+  padding: 100px 200px;
+}
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  font-weight: 300;
+}
+.attribution {
+  color: #1F2937;
+  font-weight: 900;
+  text-align: right;
+  font-size: 24px;
+  padding-right: 100px;
 }
