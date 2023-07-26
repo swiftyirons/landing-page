@@ -4,8 +4,9 @@
 }
 body {
   display: flex;
-  justify-content: center;
-  margin: 0 220px;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 100px;
   font-family: 'Roboto', sans-serif;
 }
 h1 {
@@ -15,7 +16,9 @@ h1 {
 }
 .header {
   background-color: #1F2937;
-  padding: 20px 220px 80px 220px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 120px 80px 120px;
 }
 .header ul, .secondary {
   font-size: 18px;
@@ -30,6 +33,10 @@ h1 {
 }
 .header p {
   margin: 0 0 10px 0;
+}
+.header img {
+  width: 500px;
+  height: 250px;
 }
 .header button {
   background-color: #3882F6;
@@ -53,4 +60,30 @@ h1 {
 }
 .header-two {
   gap: 50px;
+}
+
+.section-two {
+  display: flex;
+  justify-content: center;
+}
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+.image-row img {
+  border: solid 4px #3882F6;
+  border-radius: 8px;
+}
+h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  margin: 40px 0;
+}
+.card {
+  width: 208px;
+}
+.card p {
+  text-align: center;
 }
