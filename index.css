@@ -64,8 +64,7 @@ h1 {
 
 .section-two {
   display: flex;
-  justify-content: center;
-
+  flex-direction: column;
 }
 .image-row {
   display: flex;
@@ -76,7 +75,7 @@ h1 {
   border: solid 4px #3882F6;
   border-radius: 8px;
 }
-h2 {
+.section-two h2 {
   text-align: center;
   font-size: 36px;
   font-weight: 900;
@@ -106,4 +105,28 @@ h2 {
   text-align: right;
   font-size: 24px;
   padding-right: 100px;
+}
+
+.section-four {
+  background-color: #3882F6;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  margin: 100px 0;
+  padding: 40px 160px;
+  gap: 100px;
+}
+.section-four h2 {
+  color: #F9FAF8;
+}
+.section-four p {
+  color: #E5E7EB;
+}
+.section-four button {
+  background-color: #3882F6;
+  border: solid 2px #F9FAF8;
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 8px 24px;
+  color: #F9FAF8;
 }
